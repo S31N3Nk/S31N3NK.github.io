@@ -1,0 +1,92 @@
+:root {
+  font-family: 'Roboto', sans-serif;
+  --azul-claro: rgb(40, 118, 207);
+  --azul-escuro: rgb(0, 62, 129);
+}
+
+html {
+  background: radial-gradient(circle, black, cyan 200%) no-repeat center center fixed;
+  background-repeat: repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-left: 0;
+}
+
+main {
+  color: #FFF;
+  display: flex;
+}
+
+img {
+  max-width: 100%;
+}
+
+.avatar {
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  box-shadow: 9px 2px 45px black
+}
+
+.info {
+  text-align: center;
+  width: fit-content;
+  max-width: 250px;
+  background: radial-gradient(circle, black, cyan);
+  box-shadow: 13px 2px 65px black;
+  border: 2px solid black;
+  border-radius: 10%;
+  position: relative;
+  top: 80px;
+  margin-left: 10px;
+  padding: 2rem;
+  height: fit-content;
+}
+
+.curriculo {
+  position: relative;
+  top: 31px;
+  width: 70%;
+  padding: 2rem;
+  padding-bottom: 80px;
+}
+
+.navbar a {
+  margin: 35px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  color: white;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: var(--azul-escuro);
+  transition: 0.3s;
+  font-size: 130%;
+}
+
+.navbar .active {
+  font-size: 130%;
+  color: var(--azul-escuro);
+}
+
+a {
+  color: white;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: black;
+  transition: 0.3s;
+  font-size: 120%;
+}
+
+.proj a:hover {
+  color: var(--azul-escuro);
+  transition: 0.3s;
+  font-size: 150%;
+}
